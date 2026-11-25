@@ -66,3 +66,22 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+-----------------------------------------
+# Rust
+/target/
+**/*.rs.bk
+
+# Vulkan
+*.spv
+
+# Extra C / Debug
+*.i
+*.s
+*.dSYM/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
